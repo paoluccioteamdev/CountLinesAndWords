@@ -6,7 +6,6 @@ using namespace std;
 
 void contaParole(FILE*fp, int j , int parole)
 {
-    fp = fopen("testo.txt", "r");
 
     while((j=fgetc(fp))!= EOF)
     {
@@ -17,7 +16,7 @@ void contaParole(FILE*fp, int j , int parole)
     }
 
     parole += 1;
-    fclose(fp);
+
     cout<<"Numero di parole: "<< parole <<"\n\n\n\n\n\n\n\n";
 
 }
