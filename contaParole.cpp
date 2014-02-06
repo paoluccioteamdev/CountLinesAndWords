@@ -17,6 +17,6 @@ void contaParole(FILE*fp, int j , int parole)
 
     parole += 1;
 
-    cout<<"Numero di parole: "<< parole <<"\n\n\n\n\n\n\n\n";
+    cout<<"Numero di parole: "<< parole <<"\n\n\";
 
 }
