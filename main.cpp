@@ -22,6 +22,7 @@ int main()
     else
     {
         contaRighe(fp , i, righe);
+        rewind(fp);
         contaParole(fp , j, parole);
     }
     system("PAUSE");
