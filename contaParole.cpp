@@ -6,7 +6,6 @@ using namespace std;
 
 void contaParole(FILE*fp, int j , int parole)
 {
-
     while((j=fgetc(fp))!= EOF)
     {
         if (j == ' ' || j == '\n')
